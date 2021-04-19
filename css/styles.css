@@ -1,0 +1,208 @@
+body,html{
+    height: 100%;
+    margin:0px;
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  h1{
+    padding-bottom: 7px;
+  }
+  h3{
+    text-align: justify;
+    padding-bottom: 7px;
+  }
+
+  h2{
+    color: #22B78E;
+    font-weight: bolder;
+  }
+
+.banner{
+    top: 0px;
+    left: 0px;
+    background-image: url("../images/banner_image.png");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+  width: 50%;
+  margin-left: 11%;
+  color: #FFFFFF;
+  float: left;
+  
+}
+#logo{
+  padding-top: 10%;
+  padding-bottom: 9%;
+  
+}
+
+.rectangle{
+  background-color: #DD5A6A;
+  border-radius: 3.2px;
+  padding: 15px 15px 15px 15px;
+  border:0px;
+  text-align: center;
+  font-family: Arial;
+  color: #FFFFFF;
+}
+
+
+.form-container { 
+    float: right;
+    background-color: white;
+    margin-right: 11%;
+    margin-top: 5%;
+    width: 25%;
+    height: 80%;
+    padding: 30px 30px 30px 30px;
+   
+  }
+
+  input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+.bone_details1{
+  width: 88%;
+  margin: 5% 12% 7% 12%;
+  text-align: left;
+}
+  
+#bone_container {
+  float: left;
+
+}
+#content{
+  margin-left:34%;
+  margin-right: 20%;
+} 
+
+#content p{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#main_para{
+  background-color:#6078EA;
+  padding:5px;
+  color: #FFFFFF;
+  /* background-image: linear-gradient(-35.15% 100%, #2EC4B8 0%, #6078EA 100%); */
+}
+
+.doctors_container{
+  width:88%;
+  margin-right: 12%;
+  
+
+}
+.doctors_container.row{
+  display: flex;
+  margin-right: 10px;
+  
+}
+
+.doctors_container .column{
+  flex: 50%;
+  text-align: center;
+  padding:40px;
+  
+}
+
+.transplant{
+  width: 88%;
+}
+
+.transplant ul{
+  background-image: url("/images/bullet_icon.png");
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.transplant li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.doctors{
+    background-color: #6078EA;
+    border-radius: 4px;
+    width: 129px;
+    height: 49px;
+    border:none;
+    color:white;
+}
+
+
+.warnings{
+  width: 88%;
+  margin-right: 12%;
+  margin-left: 12%;
+  margin-top: 10px;
+  margin-bottom: 10%;
+}
+
+.warnings img{
+  width: 30px;
+  height: 30px;
+  
+}
+
+.warnings .column{
+    float: left;
+    width: 20%;
+    padding: 20px 20px;
+    margin-right: 10px;
+    
+}
+.warnings .row{
+ height: 40%;
+}
+
+.warnings .card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.short_summary{
+  width: 88%;
+  
+}
+
+.accordion{
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+.accordion-button{
+  color: #1D5AA6;
+  font-weight: 900;
+}
+.accordion-item{
+  margin-bottom: 50px;
+}
+
+.bottom-container{
+  margin-top: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
+  height: 200px;
+  background-color:#272727;
+}
+
+.footer-link{
+  padding-top: 5%;
+  padding-left: 15%;
+  width: 50%;
+  margin: 90px auto 100px auto;
+}
